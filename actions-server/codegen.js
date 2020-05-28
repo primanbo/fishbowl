@@ -14,10 +14,9 @@ module.exports = {
       plugins: [
         "typescript",
         "typescript-operations",
-        "typescript-document-nodes",
+        "typescript-graphql-request",
       ],
       config: {
-        noNamespaces: true,
         skipTypename: true,
         transformUnderscore: true,
         namingConvention: {
